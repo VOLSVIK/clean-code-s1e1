@@ -38,7 +38,7 @@
 .inputText, .labelText {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .list {
@@ -110,7 +110,6 @@
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -132,7 +131,7 @@
 }
 
 .list__item > .inputText[type="text"] {
-    width: 226px
+    width: 226px;
 }
 
 .buttonDelete .buttonDelete__picture {
@@ -148,19 +147,19 @@
 /* Completed */
 
 .list#completed-tasks .labelText {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 
 .list .list__item .inputText[type=text] {
-    display: none
+    display: none;
 }
 
 .list .list__item_editMode .inputText[type=text] {
     display:inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .list .list__item_editMode .labelText {
