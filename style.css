@@ -35,7 +35,8 @@
     margin: 0 auto 0;
 }
 
-.inputText, .labelText {
+.inputText,
+.labelText {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -46,15 +47,20 @@
     padding: 0px;
 }
 
-.list__item, .heading {
+.list__item,
+.heading {
     list-style: none;
 }
 
-.inputText, .inputCheck, .buttonDelete, .buttonInputText {
+.inputText,
+.inputCheck,
+.buttonDelete,
+.buttonInputText {
     outline: none;
 }
 
-.buttonDelete, .buttonInputText {
+.buttonDelete,
+.buttonInputText {
     background: none;
     border: 0px;
     color: #888;
